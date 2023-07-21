@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+   /*  background: linear-gradient(45deg,#0092af9d,#00224494); */
+   
+}
+body{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient(120deg, #e11b22c7, #0055a4c1);
+    
+}
+
+.container{
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shape{
+    height: 4px;
+    background:linear-gradient(120deg, #e11b22, #0054a4);
+    
+}
+
+.logo{
+    margin: 5px;
+    padding: 10px;
+    width:120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
+.img-perf-cont {
+    height: 140px;
+    
+}
+
+.img-perf-cont .perfil {
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(#585454);
+}
+
+
+.info-principal-cont{
+    height: 250px;
+}
+
+
+.title{
+   transform: translatey(-5px);
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 6px;
+    color: #e11b22;
+    pointer-events: none;
+
+}
+
+h3{
+   
+    margin-top: 45px;
+   transform: translatey(-15px);
+   font-weight: 500;
+   pointer-events: none;
+   color: #2a2929;
+}
+
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    color: rgb(90, 86, 94);
+    font-size: 0.9em;
+    font-weight: 300;
+   pointer-events: none;
+
+}
+
+h5{
+    
+    padding: 2px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px auto 0;
+    font-size: 0.7em;
+    color: white;
+    font-weight: 400;
+    background:linear-gradient(120deg, #e11b22, #0054a4);
+    border: 1px solid rgb(165, 164, 166);
+    pointer-events: none;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5px;
+}
+
+.icons i{
+    margin-bottom: 45px;
+    font-size: 22px;
+    transition: .3s;
+    color: #0054a4;
+}
+
+.icons i a{
+    cursor: pointer;
+    
+}
+
+.icons i:hover{
+    color: #e11b22;
+}
+
+.line-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:linear-gradient(120deg, #e11b22, #0054a4);
+    height: 4px;
+    width: 100%;
+
+}
+
