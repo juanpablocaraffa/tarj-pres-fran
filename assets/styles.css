@@ -17,12 +17,12 @@ body{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    background:linear-gradient(120deg, #e11b22c7, #0055a4c1);
+    background:white;
     
 }
 
 .container{
-    background-color: white;
+    background-color:#2a2929;
     height: 450px;
     width: 300px;
     box-shadow: 0 10px 20px #000;
@@ -43,7 +43,7 @@ body{
 .logo{
     margin: 5px;
     padding: 10px;
-    width:120px;
+    width:100px;
     position: absolute;
     top: 0;
     left: 0;
@@ -89,7 +89,7 @@ h3{
    transform: translatey(-15px);
    font-weight: 500;
    pointer-events: none;
-   color: #2a2929;
+   color: white;
 }
 
 
@@ -97,7 +97,8 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     line-height: 2;
-    color: rgb(90, 86, 94);
+    /* color: rgb(90, 86, 94); */
+    color: white;
     font-size: 0.9em;
     font-weight: 300;
    pointer-events: none;
@@ -130,7 +131,7 @@ h5{
     margin-bottom: 45px;
     font-size: 22px;
     transition: .3s;
-    color: #0054a4;
+    color: #e11b22;
 }
 
 .icons i a{
@@ -139,7 +140,7 @@ h5{
 }
 
 .icons i:hover{
-    color: #e11b22;
+    color: #0054a4;
 }
 
 .line-bottom{
